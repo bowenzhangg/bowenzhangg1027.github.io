@@ -14,3 +14,65 @@ html,body{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;fon
 
 
 #view #menu{height:30px;line-height:30px;border-bottom:1px solid #cccccc;padding:10px 1px 3px;margin:0 auto 30px}#view #menu .menu-edit{background:url('/images/../images/icons.png?1344924637') 5px -287px transparent no-repeat}#view #menu .menu-edit.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-refresh{background:url('/images/../images/icons.png?1344924637') 5px -323px transparent no-repeat}#view #menu .menu-refresh.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-preview{background:url('/images/../images/icons.png?1344924637') 5px -359px transparent no-repeat}#view #menu .menu-preview.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-share{background:url('/images/../images/icons.png?1344924637') 5px -395px transparent no-repeat}#view #menu .menu-share.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-sections{background:url('/images/../images/icons.png?1344924637') 5px -431px transparent no-repeat}#view #menu .menu-sections.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-print{background:url('/images/../images/icons.png?1344924637') 5px -467px transparent no-repeat}#view #menu .menu-print.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-privacy{background:url('/images/../images/icons.png?1344924637') 5px -503px transparent no-repeat}#view #menu .menu-privacy.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu .menu-view{background:url('/images/../images/icons.png?1344924637') 5px -539px transparent no-repeat}#view #menu .menu-view.selected{border:1px solid #006699;position:relative;top:-1px}#view #menu #resume-name,#view #menu #resume-name-h1{width:400px;float:left;display:block;height:20px;margin-top:5px;border-width:0;margin-right:25px;padding:0;padding-left:5px}#view #menu #resume-name.edit,#view #menu #resume-name-h1.edit{border-width:1px}#view #menu #resume-actions{float:left;width:380px;margin:0 auto;list-style-type:none;height:30px;line-height:30px;text-align:center}#view #menu #resume-actions li{float:left;padding-left:28px;padding-right:10px;margin-right:5px;font-size:11px}#view #menu #resume-actions li a{text-decoration:none}#view #menu #resume-actions li a:hover{text-decoration:underline}#view #menu #resume-interstitial,#view #menu #resume-by{height:30px;line-height:30px;width:180px;float:left;text-align:right;margin-left:25px}#view #menu #resume-interstitial #working-img,#view #menu #resume-by #working-img{display:none;vertical-align:middle;margin-left:10px}#view #menu #resume-interstitial #working-text,#view #menu #resume-by #working-text{font-size:10px;color:#cccccc}#view #menu #resume-interstitial #working-text.active,#view #menu #resume-by #working-text.active{color:#000}#view #menu #resume-name-h1{margin-top:0;color:#424242;font-size:24px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;line-height:25px}#view #menu #resume-by{font-size:11px}#view #menu #resume-by a{text-decoration:none}#view #menu #resume-by a:hover{text-decoration:underline}
+
+@media screen and (max-width: 639px){
+    #content{
+        width: 400px;
+        margin:0 auto;
+    }
+ 
+    #header{
+        width: 100%;
+        line-height: 100px;
+        float: left;
+        background: #333;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+ 
+    #left{
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+        background: #333;
+        float: left;
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+ 
+    #center{
+        width: 100%;
+        line-height: 300px;
+        text-align: center;
+        background: #333;
+        float: left;
+        font-size: 30px;
+        color: #fff;
+    }
+ 
+    #right{
+        width: 100%;
+        line-height: 150px;
+        text-align: center;
+        background: #333;
+        float: left;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 10px;
+    }
+ 
+    #footer{
+        width: 100%;
+        height: 200px;
+        background: #333;
+        color: #fff;
+        line-height: 200px;
+        font-size: 30px;
+        text-align: center;
+        float: left;
+        margin-top: 10px;
+    }
+}
